@@ -10,7 +10,9 @@
 
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 	<link rel="icon" href="/favicon.ico" type="image/x-icon">
-
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300&display=swap" rel="stylesheet">
 	<!--Optimización para dispositivos móviles-->
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -45,7 +47,7 @@
 </head>
 
 <body>
-
+	<div class="container">
     <h1>Bases de Datos - Que tema quires estudiar?</h1>
     <ol>
         <li>Sistema de informacion</li>
@@ -63,12 +65,12 @@
         <li>Recuperacion de fallos</li>
         <li>Copias de seguridad de restauracion</li>
     </ol>
-
+	<div class="container1">
     <input type="text" id="caja">
     <button onclick="pwcheck();">Introduce el numero</button>
     <div id="mensaje"></div>
 
-    
+</div>
     <main id="box"></main>
     
     <script src="../cuestionariomarcas/script/cuestionarioBasesDeDatos.js"></script>
@@ -76,8 +78,8 @@
 	
 	<!--A partir de aqui el menu, los contenedores, las etiquetas semánticas, el texto... -->
 
-	<a href="../cuestionariomarcas/home.html"><h1>Home</h1></a>
-
+	<a href="../cuestionariomarcas/home.html"><h1 class="h1_button">Home</h1></a>
+</div>
 </body>
 	<!-- Scripts que no realizan operaciones en la estructura de la página cuando se carga-->
 			

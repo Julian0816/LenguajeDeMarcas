@@ -1,11 +1,13 @@
 html, body {
-    background-color: #fdeec4;
+  background: rgb(212, 209, 209);
 }
 
 #box {
     width: auto;
     height: auto;
-    background: #f5deb3;
+    background-color: #5757571a;
+    margin: 20px;
+    padding: 10px;
     display: flexbox;
 }
 
@@ -13,8 +15,15 @@ h1 {
     text-align: center;
     font-family: sans-serif;
     font-weight: bold;
+ 
 }
+.h1_button{
+  margin-right: -650px;
+ 
+  font-family: sans-serif;
+  font-weight: bold;
 
+}
 li {
     font-family: sans-serif;
 }
@@ -23,7 +32,26 @@ li {
   box-sizing: border-box;
 }
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
+.container{
+  max-width: 1000px;
+  width: 100%;
+  background: rgba(243, 242, 242, 0.411);
+  padding: 20px;
+  margin: auto;
+  margin-top: 110px;
+  border-radius: 14px;
+  box-shadow: 0px 0px 50px -5px;
+
+}
+a{
+  text-decoration: none;
+  color: black;
+ 
+}
+.container1{
+   margin-right: -25px;
+   text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
 }
 

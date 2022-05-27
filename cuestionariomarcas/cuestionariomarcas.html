@@ -10,7 +10,9 @@
 
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 	<link rel="icon" href="/favicon.ico" type="image/x-icon">
-
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300&display=swap" rel="stylesheet">
 	<!--Optimización para dispositivos móviles-->
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -45,7 +47,7 @@
 </head>
 
 <body>
-
+<div class="container">
     <h1>Lenguaje de Marcas - Que tema quires estudiar?</h1>
     <ol>
         <li>Introducción a los lenguajes de marcas HTML</li>
@@ -59,21 +61,21 @@
         <li>Lenguaje de almacenamiento xml </li>
         <li>Introducción a SGE Crm Microsoft Dynamics</li>
     </ol>
-
+<div class="container1">
     <input type="text" id="caja">
     <button onclick="pwcheck();">Introduce el numero</button>
     <div id="mensaje"></div>
-
+</div>
     
     <main id="box"></main>
-    
+
     <script src="../cuestionariomarcas/script/cuestionariomarcas.js"></script>
 	<!-- A PARTIR DE AQUI EL RESTO DE LAS ETIQUETAS VISUALES, OSEA, LO QUE VE MI USUARIO-->
 	
 	<!--A partir de aqui el menu, los contenedores, las etiquetas semánticas, el texto... -->
 
-	<a href="../cuestionariomarcas/home.html"><h1>Home</h1></a>
-
+	<a href="../cuestionariomarcas/home.html"><h1 class="h1_button">Home</h1></a>
+</div>
 </body>
 	<!-- Scripts que no realizan operaciones en la estructura de la página cuando se carga-->
 			
