@@ -86,25 +86,16 @@ function generateListItems(arg) {
 
 
 const tema1 =
-["¿Qué lenguaje es directamente ejecutable por la computadora? // Maquina",
-"La elaboración de documentación es una pérdida de tiempo // Falso",
-"Al desarrollar una aplicación podemos prescindir de // Manual de identidad",
-"Cuál de las siguientes fases NO forman parte del desarrollo de una aplicación //Marketing (Forman parte: Analisis, pruebas y diseno)",
-"Los lenguajes de programación pueden ser (marca la incorrecta) // ULTRA BAJO NIVEL (Correctas: Bajo nivel o maquina, Nivel medio o ensamblador, ALto nivel)",
-"El software es la parte intangible o soporte lógico de un sistema informático ¿Verdadero o Falso? // Verdadero",
-"¿Qué es la criptografía? // Ciencia o Arte cuyo objetivo es hacer que un mensaje sea ininteligible a los receptores no autorizados",
-"De todos los tipos de software, ________ es el encargado de gestionar los recursos hardware de un computador // El sistema operativo",
-"Entre los roles del proceso de desarrollo de software están (selecciona la incorrecta) // Recolector de basura",
-"Con lenguajes interpretados son fases (marca la incorrecta) // Enlazado",
-"GUI es: // Acrónimo del inglés graphical user interface (interfaz gráfica de usuario)",
-"Lo más conveniente es que las pruebas de software se realicen sólo sobre el sistema completo, ya que no detectaríamos los errores en cada trozo de manera individual ¿Verdadero o Falso? // Falso",
-"Son tipos de software (marca la incorrecta) // ALU (Respuesta correcta: Sistema operativo, sofware de programacion, aplicaciones)",
-"Con lenguajes compilados son fases (marca la incorrecta) // TRADUCCION (La respuesta correcta es: Codigo fuente, compilacion, programa objeto)",
-"Cuando hablamos de POO ¿a qué nos referimos? // Programacion orientada a onjetos",
-"Java es un lenguaje (selecciona la incorrecta) // Compilado (La correcta es: Interpretado, Orientado a objetos, permite multihilos)",
-"Código objeto es el resultado de compilar el código fuente. Puede ser código máquina o bytecode // Verdadero",
-"En programación, a un conjunto de conceptos, estructuras, funciones y componentes, se le conoce como: // Framework",
-"Código ejecutable es el resultado de compilar y enlazar el código con el IDE // Falso"];
+["CSS4 se usa para referirse a actualizaciones que han ocurrido después de... // CSS2",
+"Node.js ha permitido que JavaScript ejecute código en el lado del cliente y en el del servidor // Verdadero",
+"XHTML significa EXpansible Hyper Text Markup Language // Falso",
+"Selecciona la opción que no sea un editor de texto válido para HTML // PowerPoint",
+"¿Quién creó el primer navegador? // Tim Berners-Lee",
+"CSS nos permite // Cambiar el color de nuestro texto, cambiar la posición los cuadros con nuestro contenido en nuestra web, mejorar la accesibilidad del usuario",
+"XHTML le brinda un formato menos consistente y peor estructurado pero permite que nuestras páginas web puedan ser fácilmente analizadas y procesadas por los navegadores web presentes y futuros // Falso",
+"¿Qué significan las siglas HTML? // HyperText Markup Language",
+"¿Cual de estas no es una ventaja que obtenemos al cumplir con los estándares establecidos por el W3C? // NINGUNA DE ESTAS: La web se mostrará en una gran variedad de navegadores, Mayor eficiencia a la hora de acceder e indexar nuestra web por parte de los motores de búsqueda, Más facilidad para cambiar el estilo de nuestra web",
+"Las siglas WWW significan World Web Wide // Falso"];
 
 const tema2 = 
 ["La etiqueta head define el encabezado para un documento o una sección // Falso",
@@ -204,11 +195,3 @@ const tema10 = ["Dentro del CRM las campañas están diseñadas para medir la ef
 "Una campaña rápida es similar a la campaña, pero puede estar relacionada a un solo tipo de actividad // Verdadero",
 "Microsoft Dynamics CRM está diseñado en torno a los siguientes módulos funcionales // Ventas, comercialización y gestión de servicios",
 "El módulo de administración de servicios de CRM // Está diseñado para enfocar, administrar y rastrear operaciones de servicio al cliente de una organización, como el soporte de incidentes, servicios, apoyo a los clientes mediante la programación de servicios, etc."]
-
-
-
-
-
-
-
-//document.getElementById("arrPrint").innerHTML = arr;
